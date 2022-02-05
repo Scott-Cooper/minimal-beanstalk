@@ -1,0 +1,29 @@
+RewriteEngine on
+
+########## FORCE SSL  ##########
+
+#RewriteCond %{HTTP_HOST} !^localhost [NC]
+#RewriteCond %{REMOTE_ADDR} !^127\.0\.0\.1$
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+########## END SSL ##########
+
+
+
+########## FEED JSON  ##########
+
+#Rewriterule ^related.json$ related.php [L]
+
+########## FEED JSON  ##########
+
+
+
+########## Global Test Development ##########
+
+#RewriteCond %{SCRIPT_FILENAME} !-d  
+#RewriteCond %{SCRIPT_FILENAME} !-f 
+
+#RewriteRule ^.*$ ./index.php
+
+########## END Test Development ##########

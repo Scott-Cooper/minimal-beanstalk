@@ -1,0 +1,12 @@
+{
+	"name": "minimal-beanstalk/web-services",
+	"description": "minimal-beanstalk Web Services Project",
+	"version": "0.0.2",
+    "require": {
+        "aws/aws-sdk-php": "3.*"
+    },
+    "authors": [
+
+	]
+
+}
