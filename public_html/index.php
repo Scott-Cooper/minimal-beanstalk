@@ -16,9 +16,7 @@
 </head>
 
 <body>
-<? 
-	minimal-beanstalk
+	<h2>minimal-beanstalk</h2>
 	<a href="./infox.php">Some Info</a>
-?>
 </body>
 </html>
