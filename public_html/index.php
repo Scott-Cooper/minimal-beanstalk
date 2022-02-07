@@ -7,11 +7,6 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <title>Index</title>
 <script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
-<script>
-	var ROOT = '<? echo ROOT; ?>';
-	var HTTP = '<? echo HTTP ?>';
-	var PAGE = '<? echo $page ?>';
-</script>
 </head>
 
 <body>
