@@ -1,17 +1,18 @@
+# file created via cli "eb init"
 branch-defaults:
-  dev:
+  default:
     environment: minimal-beanstalk
-  eb-deployment:
-    environment: minimal-beanstalk
-  master:
-    environment: minimal-beanstalk
-    group_suffix: null
 global:
   application_name: minimal-beanstalk
   branch: null
-  default_ec2_keyname: minimal-beanstalk
-  default_platform: PHP 8.0
+  default_ec2_keyname: null
+  default_platform: PHP 8.0 running on 64bit Amazon Linux 2
   default_region: us-west-2
   include_git_submodules: true
-  sc: git
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: null
   workspace_type: Application
