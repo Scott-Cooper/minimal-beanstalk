@@ -14,3 +14,4 @@ cp bin/*.sh  /opt/
 chmod 755 /opt/*.sh
 echo "Installed scheduler"
 crontab -l
+
