@@ -1,11 +1,11 @@
 # file created via cli "eb init"
-branch-defaults:
-  default:
-    environment: minimal-beanstalk-devvv
-  dev:
-    environment: minimal-beanstalk-dev
-  prod:
-    environment: minimal-beanstalk-prod
+# branch-defaults:
+#   default:
+#     environment: minimal-beanstalk-devvv
+#   dev:
+#     environment: minimal-beanstalk-dev
+#   prod:
+#     environment: minimal-beanstalk-prod
 global:
   application_name: minimal-beanstalk
   branch: null
